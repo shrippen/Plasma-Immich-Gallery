@@ -147,9 +147,9 @@ function fetchAlbum(serverUrl, apiKey, albumId, callback) {
     if (ids.length === 0) { callback("No album selected", null); return; }
 
     // Immich v3 removed the `assets` property from GET /api/albums/{id}.
-    // Use POST /api/search/metadata with albumIds per album and merge results.
-    // (albumIds in search/metadata is AND, so we must query each album separately
-    //  to get a union of all photos across albums.)
+    // Fetch each album individually via search/metadata (albumIds is an AND
+    // filter, so we query one album at a time and merge+deduplicate).
+
     var merged = {};
     var pending = ids.length;
     var done = false;
