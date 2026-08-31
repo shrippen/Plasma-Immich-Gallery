@@ -147,10 +147,6 @@ function fetchAlbum(serverUrl, apiKey, albumId, callback) {
     if (ids.length === 0) { callback("No album selected", null); return; }
 
     // Immich v3 removed the `assets` property from GET /api/albums/{id}.
-<<<<<<< Updated upstream
-    // Use POST /api/search/metadata with albumIds instead.
-    _metadataSearch(serverUrl, apiKey, { albumIds: ids }, null, [], 1, callback);
-=======
     // Use POST /api/search/metadata with albumIds per album and merge results.
     // (albumIds in search/metadata is AND, so we must query each album separately
     //  to get a union of all photos across albums.)
@@ -174,7 +170,7 @@ function fetchAlbum(serverUrl, apiKey, albumId, callback) {
                 }
             });
     });
->>>>>>> Stashed changes
+
 }
 
 // count=null → fetch all pages
