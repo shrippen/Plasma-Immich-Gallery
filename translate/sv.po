@@ -1,0 +1,166 @@
+# Swedish translation for Plasma-Immich-Gallery
+msgid ""
+msgstr ""
+"Project-Id-Version: Plasma-Immich-Gallery 1.0\n"
+"Language: sv\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Connection"
+msgstr "Anslutning"
+
+msgid "Display"
+msgstr "Visning"
+
+msgid "Server URL:"
+msgstr "Server-URL:"
+
+msgid "API Key:"
+msgstr "API-nyckel:"
+
+msgid "Paste your Immich API key here"
+msgstr "Klistra in din Immich API-nyckel här"
+
+msgid "Test Connection"
+msgstr "Testa anslutning"
+
+msgid "Testing…"
+msgstr "Testar…"
+
+msgid "Connection failed: %1"
+msgstr "Anslutning misslyckades: %1"
+
+msgid "Connected successfully!"
+msgstr "Ansluten!"
+
+msgid "Note:"
+msgstr "Obs:"
+
+msgid "View mode:"
+msgstr "Visningsläge:"
+
+msgid "Slideshow"
+msgstr "Bildspel"
+
+msgid "Daily Photo"
+msgstr "Dagens bild"
+
+msgid "Slideshow interval (s):"
+msgstr "Bildspelsintervall (s):"
+
+msgid "Daily reset hour:"
+msgstr "Daglig återställningstimme:"
+
+msgid "Refresh interval (s):"
+msgstr "Uppdateringsintervall (s):"
+
+msgid "Photo count:"
+msgstr "Antal bilder:"
+
+msgid "Use all photos (ignore count)"
+msgstr "Använd alla bilder (ignorera antal)"
+
+msgid "Order:"
+msgstr "Ordning:"
+
+msgid "Shuffle"
+msgstr "Blanda"
+
+msgid "Content source:"
+msgstr "Innehållskälla:"
+
+msgid "Recent"
+msgstr "Senaste"
+
+msgid "Favorites"
+msgstr "Favoriter"
+
+msgid "Random"
+msgstr "Slumpmässig"
+
+msgid "Album"
+msgstr "Album"
+
+msgid "People"
+msgstr "Personer"
+
+msgid "Albums:"
+msgstr "Album:"
+
+msgid "No albums selected"
+msgstr "Inga album valda"
+
+msgid "1 album"
+msgstr "1 album"
+
+msgid "%1 albums selected"
+msgstr "%1 album valda"
+
+msgid "Load"
+msgstr "Ladda"
+
+msgid "Unnamed Album"
+msgstr "Album utan namn"
+
+msgid "People:"
+msgstr "Personer:"
+
+msgid "No people selected"
+msgstr "Inga personer valda"
+
+msgid "1 person"
+msgstr "1 person"
+
+msgid "%1 people selected"
+msgstr "%1 personer valda"
+
+msgid "Border:"
+msgstr "Ram:"
+
+msgid "Remove widget border and background"
+msgstr "Ta bort widget-ram och bakgrund"
+
+msgid "Opacity:"
+msgstr "Opacitet:"
+
+msgid "Immich Gallery\n\nRight-click → Configure to get started."
+msgstr "Immich-galleri\n\nHögerklicka → Konfigurera för att komma igång."
+
+msgid "No photos found for this source."
+msgstr "Inga bilder hittade för denna källa."
+
+msgid "No album selected. Go to Configure → Display."
+msgstr "Inget album valt. Gå till Konfigurera → Visning."
+
+msgid "No person selected. Go to Configure → Display."
+msgstr "Ingen person vald. Gå till Konfigurera → Visning."
+
+msgid "Hour of day (0–23) when the daily photo changes. Default is 0 (midnight)."
+msgstr "Timme på dygnet (0–23) när dagens bild ändras. Standard är 0 (midnatt)."
+
+msgid "How often to re-fetch the photo list from your Immich server. Does not affect the slideshow speed."
+msgstr "Hur ofta bildlistan hämtas om från Immich-servern. Påverkar inte bildspelets hastighet."
+
+msgid "Generate an API key in the Immich web interface:"
+msgstr "Skapa en API-nyckel i Immich-gränssnittet:"
+
+msgid "Account Settings → API Keys → New API Key"
+msgstr "Kontoinställningar → API-nycklar → Ny API-nyckel"
+
+msgid "Required API key permissions:"
+msgstr "Nödvändiga API-nyckelbehörigheter:"
+
+msgid "• Album — Read  (%1)"
+msgstr "• Album — Läs  (%1)"
+
+msgid "Album source"
+msgstr "Albumkälla"
+
+msgid "• Person — Read  (%1)"
+msgstr "• Person — Läs  (%1)"
+
+msgid "People source"
+msgstr "Personkälla"

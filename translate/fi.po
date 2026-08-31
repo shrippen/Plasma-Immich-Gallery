@@ -1,0 +1,166 @@
+# Finnish translation for Plasma-Immich-Gallery
+msgid ""
+msgstr ""
+"Project-Id-Version: Plasma-Immich-Gallery 1.0\n"
+"Language: fi\n"
+"Language-Team: Finnish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Connection"
+msgstr "Yhteys"
+
+msgid "Display"
+msgstr "Näyttö"
+
+msgid "Server URL:"
+msgstr "Palvelimen URL:"
+
+msgid "API Key:"
+msgstr "API-avain:"
+
+msgid "Paste your Immich API key here"
+msgstr "Liitä Immich API-avain tähän"
+
+msgid "Test Connection"
+msgstr "Testaa yhteys"
+
+msgid "Testing…"
+msgstr "Testataan…"
+
+msgid "Connection failed: %1"
+msgstr "Yhteys epäonnistui: %1"
+
+msgid "Connected successfully!"
+msgstr "Yhteys muodostettu!"
+
+msgid "Note:"
+msgstr "Huomautus:"
+
+msgid "View mode:"
+msgstr "Näkymätila:"
+
+msgid "Slideshow"
+msgstr "Diaesitys"
+
+msgid "Daily Photo"
+msgstr "Päivän valokuva"
+
+msgid "Slideshow interval (s):"
+msgstr "Diaesityksen väli (s):"
+
+msgid "Daily reset hour:"
+msgstr "Päivittäinen nollausvaihe:"
+
+msgid "Refresh interval (s):"
+msgstr "Pivitysväli (s):"
+
+msgid "Photo count:"
+msgstr "Valokuvien määrä:"
+
+msgid "Use all photos (ignore count)"
+msgstr "Käytä kaikkia valokuvia (ohita määrä)"
+
+msgid "Order:"
+msgstr "Järjestys:"
+
+msgid "Shuffle"
+msgstr "Satunnaista"
+
+msgid "Content source:"
+msgstr "Sisällön lähde:"
+
+msgid "Recent"
+msgstr "Viimeisimmät"
+
+msgid "Favorites"
+msgstr "Suosikit"
+
+msgid "Random"
+msgstr "Satunnainen"
+
+msgid "Album"
+msgstr "Albumi"
+
+msgid "People"
+msgstr "Henkilöt"
+
+msgid "Albums:"
+msgstr "Albumit:"
+
+msgid "No albums selected"
+msgstr "Albumia ei valittu"
+
+msgid "1 album"
+msgstr "1 albumi"
+
+msgid "%1 albums selected"
+msgstr "%1 albumia valittu"
+
+msgid "Load"
+msgstr "Lataa"
+
+msgid "Unnamed Album"
+msgstr "Nimetön albumi"
+
+msgid "People:"
+msgstr "Henkilöt:"
+
+msgid "No people selected"
+msgstr "Henkilöitä ei valittu"
+
+msgid "1 person"
+msgstr "1 henkilö"
+
+msgid "%1 people selected"
+msgstr "%1 henkilöä valittu"
+
+msgid "Border:"
+msgstr "Reunus:"
+
+msgid "Remove widget border and background"
+msgstr "Poista widgetin reunus ja tausta"
+
+msgid "Opacity:"
+msgstr "Peittävyys:"
+
+msgid "Immich Gallery\n\nRight-click → Configure to get started."
+msgstr "Immich-galleria\n\nOikea-napsauta → Määritä aloittaaksesi."
+
+msgid "No photos found for this source."
+msgstr "Ei löydy valokuvia tältä lähteeltä."
+
+msgid "No album selected. Go to Configure → Display."
+msgstr "Albumia ei valittu. Siirry Määritä → Näyttö."
+
+msgid "No person selected. Go to Configure → Display."
+msgstr "Henkilöä ei valittu. Siirry Määritä → Näyttö."
+
+msgid "Hour of day (0–23) when the daily photo changes. Default is 0 (midnight)."
+msgstr "Päivän tunti (0–23), jolloin päivän valokuva vaihtuu. Oletus on 0 (keskiyö)."
+
+msgid "How often to re-fetch the photo list from your Immich server. Does not affect the slideshow speed."
+msgstr "Kuinka usein valokuvatiedosto haetaan uudelleen Immich-palvelimelta. Ei vaikuta diaesityksen nopeuteen."
+
+msgid "Generate an API key in the Immich web interface:"
+msgstr "Luo API-avain Immich-verkkokäyttöliittymässä:"
+
+msgid "Account Settings → API Keys → New API Key"
+msgstr "Tilin asetukset → API-avaimet → Uusi API-avain"
+
+msgid "Required API key permissions:"
+msgstr "Tarvittavat API-avaimen käyttöoikeudet:"
+
+msgid "• Album — Read  (%1)"
+msgstr "• Albumi — Lukeminen  (%1)"
+
+msgid "Album source"
+msgstr "Albumilähde"
+
+msgid "• Person — Read  (%1)"
+msgstr "• Henkilö — Lukeminen  (%1)"
+
+msgid "People source"
+msgstr "Henkilölähde"

@@ -1,0 +1,166 @@
+# German translation for Plasma-Immich-Gallery
+msgid ""
+msgstr ""
+"Project-Id-Version: Plasma-Immich-Gallery 1.0\n"
+"Language: de\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Connection"
+msgstr "Verbindung"
+
+msgid "Display"
+msgstr "Anzeige"
+
+msgid "Server URL:"
+msgstr "Server-URL:"
+
+msgid "API Key:"
+msgstr "API-Schlüssel:"
+
+msgid "Paste your Immich API key here"
+msgstr "Immich-API-Schlüssel hier einfügen"
+
+msgid "Test Connection"
+msgstr "Verbindung testen"
+
+msgid "Testing…"
+msgstr "Teste…"
+
+msgid "Connection failed: %1"
+msgstr "Verbindung fehlgeschlagen: %1"
+
+msgid "Connected successfully!"
+msgstr "Erfolgreich verbunden!"
+
+msgid "Note:"
+msgstr "Hinweis:"
+
+msgid "View mode:"
+msgstr "Ansichtsmodus:"
+
+msgid "Slideshow"
+msgstr "Diashow"
+
+msgid "Daily Photo"
+msgstr "Tagesfoto"
+
+msgid "Slideshow interval (s):"
+msgstr "Diashow-Intervall (s):"
+
+msgid "Daily reset hour:"
+msgstr "Tägliche Rücksetzstunde:"
+
+msgid "Refresh interval (s):"
+msgstr "Aktualisierungsintervall (s):"
+
+msgid "Photo count:"
+msgstr "Fotoanzahl:"
+
+msgid "Use all photos (ignore count)"
+msgstr "Alle Fotos verwenden (Anzahl ignorieren)"
+
+msgid "Order:"
+msgstr "Reihenfolge:"
+
+msgid "Shuffle"
+msgstr "Zufällig"
+
+msgid "Content source:"
+msgstr "Inhaltsquelle:"
+
+msgid "Recent"
+msgstr "Neueste"
+
+msgid "Favorites"
+msgstr "Favoriten"
+
+msgid "Random"
+msgstr "Zufällig"
+
+msgid "Album"
+msgstr "Album"
+
+msgid "People"
+msgstr "Personen"
+
+msgid "Albums:"
+msgstr "Alben:"
+
+msgid "No albums selected"
+msgstr "Keine Alben ausgewählt"
+
+msgid "1 album"
+msgstr "1 Album"
+
+msgid "%1 albums selected"
+msgstr "%1 Alben ausgewählt"
+
+msgid "Load"
+msgstr "Laden"
+
+msgid "Unnamed Album"
+msgstr "Unbenanntes Album"
+
+msgid "People:"
+msgstr "Personen:"
+
+msgid "No people selected"
+msgstr "Keine Personen ausgewählt"
+
+msgid "1 person"
+msgstr "1 Person"
+
+msgid "%1 people selected"
+msgstr "%1 Personen ausgewählt"
+
+msgid "Border:"
+msgstr "Rahmen:"
+
+msgid "Remove widget border and background"
+msgstr "Widget-Rahmen und Hintergrund entfernen"
+
+msgid "Opacity:"
+msgstr "Deckkraft:"
+
+msgid "Immich Gallery\n\nRight-click → Configure to get started."
+msgstr "Immich-Galerie\n\nRechtsklick → Konfigurieren zum Starten."
+
+msgid "No photos found for this source."
+msgstr "Keine Fotos für diese Quelle gefunden."
+
+msgid "No album selected. Go to Configure → Display."
+msgstr "Kein Album ausgewählt. Wechsel zu Konfigurieren → Anzeige."
+
+msgid "No person selected. Go to Configure → Display."
+msgstr "Keine Person ausgewählt. Wechsel zu Konfigurieren → Anzeige."
+
+msgid "Hour of day (0–23) when the daily photo changes. Default is 0 (midnight)."
+msgstr "Stunde des Tages (0–23), zu der sich das Tagesfoto ändert. Standard ist 0 (Mitternacht)."
+
+msgid "How often to re-fetch the photo list from your Immich server. Does not affect the slideshow speed."
+msgstr "Wie oft die Fotoliste vom Immich-Server neu abgerufen wird. Beeinflusst nicht die Geschwindigkeit der Diashow."
+
+msgid "Generate an API key in the Immich web interface:"
+msgstr "API-Schlüssel in der Immich-Weboberfläche generieren:"
+
+msgid "Account Settings → API Keys → New API Key"
+msgstr "Kontoeinstellungen → API-Schlüssel → Neuer API-Schlüssel"
+
+msgid "Required API key permissions:"
+msgstr "Erforderliche API-Schlüssel-Berechtigungen:"
+
+msgid "• Album — Read  (%1)"
+msgstr "• Album — Lesen  (%1)"
+
+msgid "Album source"
+msgstr "Album-Quelle"
+
+msgid "• Person — Read  (%1)"
+msgstr "• Person — Lesen  (%1)"
+
+msgid "People source"
+msgstr "Personen-Quelle"

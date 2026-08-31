@@ -1,0 +1,166 @@
+# Chinese (Simplified) translation for Plasma-Immich-Gallery
+msgid ""
+msgstr ""
+"Project-Id-Version: Plasma-Immich-Gallery 1.0\n"
+"Language: zh_CN\n"
+"Language-Team: Chinese (Simplified)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Connection"
+msgstr "连接"
+
+msgid "Display"
+msgstr "显示"
+
+msgid "Server URL:"
+msgstr "服务器 URL："
+
+msgid "API Key:"
+msgstr "API 密钥："
+
+msgid "Paste your Immich API key here"
+msgstr "在此粘贴您的 Immich API 密钥"
+
+msgid "Test Connection"
+msgstr "测试连接"
+
+msgid "Testing…"
+msgstr "正在测试…"
+
+msgid "Connection failed: %1"
+msgstr "连接失败：%1"
+
+msgid "Connected successfully!"
+msgstr "连接成功！"
+
+msgid "Note:"
+msgstr "注意："
+
+msgid "View mode:"
+msgstr "视图模式："
+
+msgid "Slideshow"
+msgstr "幻灯片"
+
+msgid "Daily Photo"
+msgstr "每日照片"
+
+msgid "Slideshow interval (s):"
+msgstr "幻灯片间隔（秒）："
+
+msgid "Daily reset hour:"
+msgstr "每日重置时间："
+
+msgid "Refresh interval (s):"
+msgstr "刷新间隔（秒）："
+
+msgid "Photo count:"
+msgstr "照片数量："
+
+msgid "Use all photos (ignore count)"
+msgstr "使用所有照片（忽略数量）"
+
+msgid "Order:"
+msgstr "排序："
+
+msgid "Shuffle"
+msgstr "随机排列"
+
+msgid "Content source:"
+msgstr "内容来源："
+
+msgid "Recent"
+msgstr "最近"
+
+msgid "Favorites"
+msgstr "收藏"
+
+msgid "Random"
+msgstr "随机"
+
+msgid "Album"
+msgstr "相册"
+
+msgid "People"
+msgstr "人物"
+
+msgid "Albums:"
+msgstr "相册："
+
+msgid "No albums selected"
+msgstr "未选择相册"
+
+msgid "1 album"
+msgstr "1 个相册"
+
+msgid "%1 albums selected"
+msgstr "已选择 %1 个相册"
+
+msgid "Load"
+msgstr "加载"
+
+msgid "Unnamed Album"
+msgstr "未命名相册"
+
+msgid "People:"
+msgstr "人物："
+
+msgid "No people selected"
+msgstr "未选择人物"
+
+msgid "1 person"
+msgstr "1 人"
+
+msgid "%1 people selected"
+msgstr "已选择 %1 人"
+
+msgid "Border:"
+msgstr "边框："
+
+msgid "Remove widget border and background"
+msgstr "移除小部件边框和背景"
+
+msgid "Opacity:"
+msgstr "不透明度："
+
+msgid "Immich Gallery\n\nRight-click → Configure to get started."
+msgstr "Immich 相册\n\n右键点击 → 配置以开始。"
+
+msgid "No photos found for this source."
+msgstr "未找到此来源的照片。"
+
+msgid "No album selected. Go to Configure → Display."
+msgstr "未选择相册。请前往 配置 → 显示。"
+
+msgid "No person selected. Go to Configure → Display."
+msgstr "未选择人物。请前往 配置 → 显示。"
+
+msgid "Hour of day (0–23) when the daily photo changes. Default is 0 (midnight)."
+msgstr "每日照片更换的小时（0–23）。默认为 0（午夜）。"
+
+msgid "How often to re-fetch the photo list from your Immich server. Does not affect the slideshow speed."
+msgstr "从 Immich 服务器重新获取照片列表的频率。不影响幻灯片速度。"
+
+msgid "Generate an API key in the Immich web interface:"
+msgstr "在 Immich 网页界面中生成 API 密钥："
+
+msgid "Account Settings → API Keys → New API Key"
+msgstr "账户设置 → API 密钥 → 新建 API 密钥"
+
+msgid "Required API key permissions:"
+msgstr "所需的 API 密钥权限："
+
+msgid "• Album — Read  (%1)"
+msgstr "• 相册 — 读取  (%1)"
+
+msgid "Album source"
+msgstr "相册来源"
+
+msgid "• Person — Read  (%1)"
+msgstr "• 人物 — 读取  (%1)"
+
+msgid "People source"
+msgstr "人物来源"

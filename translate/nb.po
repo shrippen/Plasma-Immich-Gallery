@@ -1,0 +1,166 @@
+# Norwegian Bokmål translation for Plasma-Immich-Gallery
+msgid ""
+msgstr ""
+"Project-Id-Version: Plasma-Immich-Gallery 1.0\n"
+"Language: nb\n"
+"Language-Team: Norwegian Bokmål\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Connection"
+msgstr "Tilkobling"
+
+msgid "Display"
+msgstr "Visning"
+
+msgid "Server URL:"
+msgstr "Server-URL:"
+
+msgid "API Key:"
+msgstr "API-nøkkel:"
+
+msgid "Paste your Immich API key here"
+msgstr "Lim inn Immich API-nøkkelen her"
+
+msgid "Test Connection"
+msgstr "Test tilkobling"
+
+msgid "Testing…"
+msgstr "Tester…"
+
+msgid "Connection failed: %1"
+msgstr "Tilkobling mislyktes: %1"
+
+msgid "Connected successfully!"
+msgstr "Tilkoblet!"
+
+msgid "Note:"
+msgstr "Merk:"
+
+msgid "View mode:"
+msgstr "Visningsmodus:"
+
+msgid "Slideshow"
+msgstr "Lysbildefremvisning"
+
+msgid "Daily Photo"
+msgstr "Dagens bilde"
+
+msgid "Slideshow interval (s):"
+msgstr "Lysbildefremvisningsintervall (s):"
+
+msgid "Daily reset hour:"
+msgstr "Daglig tilbakestillingstime:"
+
+msgid "Refresh interval (s):"
+msgstr "Oppdateringsintervall (s):"
+
+msgid "Photo count:"
+msgstr "Antall bilder:"
+
+msgid "Use all photos (ignore count)"
+msgstr "Bruk alle bilder (ignorer antall)"
+
+msgid "Order:"
+msgstr "Rekkefølge:"
+
+msgid "Shuffle"
+msgstr "Bland"
+
+msgid "Content source:"
+msgstr "Innholdskilde:"
+
+msgid "Recent"
+msgstr "Nylige"
+
+msgid "Favorites"
+msgstr "Favoritter"
+
+msgid "Random"
+msgstr "Tilfeldig"
+
+msgid "Album"
+msgstr "Album"
+
+msgid "People"
+msgstr "Personer"
+
+msgid "Albums:"
+msgstr "Album:"
+
+msgid "No albums selected"
+msgstr "Ingen album valgt"
+
+msgid "1 album"
+msgstr "1 album"
+
+msgid "%1 albums selected"
+msgstr "%1 album valgt"
+
+msgid "Load"
+msgstr "Last"
+
+msgid "Unnamed Album"
+msgstr "Album uten navn"
+
+msgid "People:"
+msgstr "Personer:"
+
+msgid "No people selected"
+msgstr "Ingen personer valgt"
+
+msgid "1 person"
+msgstr "1 person"
+
+msgid "%1 people selected"
+msgstr "%1 personer valgt"
+
+msgid "Border:"
+msgstr "Kant:"
+
+msgid "Remove widget border and background"
+msgstr "Fjern widget-kant og bakgrunn"
+
+msgid "Opacity:"
+msgstr "Gjennomsiktighet:"
+
+msgid "Immich Gallery\n\nRight-click → Configure to get started."
+msgstr "Immich-galleri\n\nHøyreklikk → Konfigurer for å komme i gang."
+
+msgid "No photos found for this source."
+msgstr "Ingen bilder funnet for denne kilden."
+
+msgid "No album selected. Go to Configure → Display."
+msgstr "Ingen album valgt. Gå til Konfigurer → Visning."
+
+msgid "No person selected. Go to Configure → Display."
+msgstr "Ingen person valgt. Gå til Konfigurer → Visning."
+
+msgid "Hour of day (0–23) when the daily photo changes. Default is 0 (midnight)."
+msgstr "Time på dagen (0–23) da dagens bilde endres. Standard er 0 (midnatt)."
+
+msgid "How often to re-fetch the photo list from your Immich server. Does not affect the slideshow speed."
+msgstr "Hvor ofte bildelisten hentes på nytt fra Immich-serveren. Påvirker ikke hastigheten på lysbildefremvisningen."
+
+msgid "Generate an API key in the Immich web interface:"
+msgstr "Generer en API-nøkkel i Immich-nettgrensesnittet:"
+
+msgid "Account Settings → API Keys → New API Key"
+msgstr "Kontoinnstillinger → API-nøkler → Ny API-nøkkel"
+
+msgid "Required API key permissions:"
+msgstr "Nødvendige API-nøkkelrettigheter:"
+
+msgid "• Album — Read  (%1)"
+msgstr "• Album — Lesing  (%1)"
+
+msgid "Album source"
+msgstr "Albumkilde"
+
+msgid "• Person — Read  (%1)"
+msgstr "• Person — Lesing  (%1)"
+
+msgid "People source"
+msgstr "Personkilde"

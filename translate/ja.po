@@ -1,0 +1,166 @@
+# Japanese translation for Plasma-Immich-Gallery
+msgid ""
+msgstr ""
+"Project-Id-Version: Plasma-Immich-Gallery 1.0\n"
+"Language: ja\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Connection"
+msgstr "接結"
+
+msgid "Display"
+msgstr "表示"
+
+msgid "Server URL:"
+msgstr "サーバー URL："
+
+msgid "API Key:"
+msgstr "API キー："
+
+msgid "Paste your Immich API key here"
+msgstr "Immich API キーをここに貼り付けてください"
+
+msgid "Test Connection"
+msgstr "接結テスト"
+
+msgid "Testing…"
+msgstr "テスト中…"
+
+msgid "Connection failed: %1"
+msgstr "接結失敗：%1"
+
+msgid "Connected successfully!"
+msgstr "接結成功！"
+
+msgid "Note:"
+msgstr "注意："
+
+msgid "View mode:"
+msgstr "表示モード："
+
+msgid "Slideshow"
+msgstr "スライドショー"
+
+msgid "Daily Photo"
+msgstr "今日の写真"
+
+msgid "Slideshow interval (s):"
+msgstr "スライドショー間隔（秒）："
+
+msgid "Daily reset hour:"
+msgstr "毎日のリセット時刻："
+
+msgid "Refresh interval (s):"
+msgstr "更新間隔（秒）："
+
+msgid "Photo count:"
+msgstr "写真数："
+
+msgid "Use all photos (ignore count)"
+msgstr "すべての写真を使用（数を無視）"
+
+msgid "Order:"
+msgstr "順序："
+
+msgid "Shuffle"
+msgstr "シャッフル"
+
+msgid "Content source:"
+msgstr "コンテンツソース："
+
+msgid "Recent"
+msgstr "最近"
+
+msgid "Favorites"
+msgstr "お気に入り"
+
+msgid "Random"
+msgstr "ランダム"
+
+msgid "Album"
+msgstr "アルバム"
+
+msgid "People"
+msgstr "人物"
+
+msgid "Albums:"
+msgstr "アルバム："
+
+msgid "No albums selected"
+msgstr "アルバムが選択されていません"
+
+msgid "1 album"
+msgstr "1 アルバム"
+
+msgid "%1 albums selected"
+msgstr "%1 アルバム選択中"
+
+msgid "Load"
+msgstr "読み込み"
+
+msgid "Unnamed Album"
+msgstr "名のないアルバム"
+
+msgid "People:"
+msgstr "人物："
+
+msgid "No people selected"
+msgstr "人物が選択されていません"
+
+msgid "1 person"
+msgstr "1 人"
+
+msgid "%1 people selected"
+msgstr "%1 人選択中"
+
+msgid "Border:"
+msgstr "ボーダー："
+
+msgid "Remove widget border and background"
+msgstr "ウィジェットのボーダーと背景を削除"
+
+msgid "Opacity:"
+msgstr "不透明度："
+
+msgid "Immich Gallery\n\nRight-click → Configure to get started."
+msgstr "Immich ギャラリー\n\n右クリック → 設定して開始。"
+
+msgid "No photos found for this source."
+msgstr "このソースの写真が見つかりません。"
+
+msgid "No album selected. Go to Configure → Display."
+msgstr "アルバムが選択されていません。設定 → 表示に移動。"
+
+msgid "No person selected. Go to Configure → Display."
+msgstr "人物が選択されていません。設定 → 表示に移動。"
+
+msgid "Hour of day (0–23) when the daily photo changes. Default is 0 (midnight)."
+msgstr "今日の写真が変わる時刻（0–23）。デフォルトは 0（深夜）。"
+
+msgid "How often to re-fetch the photo list from your Immich server. Does not affect the slideshow speed."
+msgstr "Immich サーバーから写真リストを再取得する頻度。スライドショーの速度には影響しません。"
+
+msgid "Generate an API key in the Immich web interface:"
+msgstr "Immich ウェブインターフェースで API キーを生成してください："
+
+msgid "Account Settings → API Keys → New API Key"
+msgstr "アカウント設定 → API キー → 新しい API キー"
+
+msgid "Required API key permissions:"
+msgstr "必要な API キーの権限："
+
+msgid "• Album — Read  (%1)"
+msgstr "• アルバム — 読み取り  (%1)"
+
+msgid "Album source"
+msgstr "アルバムソース"
+
+msgid "• Person — Read  (%1)"
+msgstr "• 人物 — 読み取り  (%1)"
+
+msgid "People source"
+msgstr "人物ソース"

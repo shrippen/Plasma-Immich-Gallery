@@ -110,10 +110,17 @@ KCM.SimpleKCM {
 
         QQC2.Label {
             Kirigami.FormData.label: i18n("Note:")
-            text: i18n("Generate an API key in the Immich web interface:\nAccount Settings → API Keys → New API Key\n\nRequired API key permissions:\n  • Asset — Read\n  • Asset — View\n  • Album — Read  (Album source)\n  • Person — Read  (People source)")
             wrapMode: Text.Wrap
             Layout.fillWidth: true
             opacity: 0.7
+            text: i18n("Generate an API key in the Immich web interface:") + "\n"
+                + i18n("Account Settings \u2192 API Keys \u2192 New API Key")
+                + "\n\n"
+                + i18n("Required API key permissions:")
+                + "\n  \u2022 Asset \u2014 Read"
+                + "\n  \u2022 Asset \u2014 View"
+                + "\n  " + i18n("\u2022 Album \u2014 Read  (%1)", i18n("Album source"))
+                + "\n  " + i18n("\u2022 Person \u2014 Read  (%1)", i18n("People source"))
         }
     }
 }

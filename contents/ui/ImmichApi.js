@@ -146,27 +146,9 @@ function fetchAlbum(serverUrl, apiKey, albumId, callback) {
                      .filter(function(s) { return s !== ""; });
     if (ids.length === 0) { callback("No album selected", null); return; }
 
-    // Single album — simple case
-    if (ids.length === 1) {
-        apiGet(serverUrl + "/api/albums/" + ids[0], apiKey, function(err, data) {
-            if (err) { callback(err, null); return; }
-            callback(null, data.assets || []);
-        });
-        return;
-    }
-
-    // Multiple albums — fetch in parallel then merge
-    var merged = [];
-    var pending = ids.length;
-    var done = false;
-    ids.forEach(function(id) {
-        apiGet(serverUrl + "/api/albums/" + id, apiKey, function(err, data) {
-            if (done) return;
-            if (err) { done = true; callback(err, null); return; }
-            merged = merged.concat(data.assets || []);
-            if (--pending === 0) { done = true; callback(null, merged); }
-        });
-    });
+    // Immich v3 removed the `assets` property from GET /api/albums/{id}.
+    // Use POST /api/search/metadata with albumIds instead.
+    _metadataSearch(serverUrl, apiKey, { albumIds: ids }, null, [], 1, callback);
 }
 
 // count=null → fetch all pages
